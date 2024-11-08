@@ -12,25 +12,17 @@ public:
     this->mes=m;
     this->anio=a;
     }
-    void setDia(int d){
-    this->dia=d;
+    void agregarFecha(){
+    cout<<"Ingrese el dia de la fecha:";
+    cin>>dia;
+    cout<<"Ingrese el mes de la fecha:";
+    cin>>mes;
+    cout<<"Ingrese el anio de la fecha:";
+    cin>>anio;
     }
-    void setMes(int m){
-    this->mes=m;
+    void mostrarFecha(){
+    cout<<this->dia<<"/"<<this->mes<<"/"<<anio<<endl;
     }
-    void setAnio(int a){
-    this->anio=a;
-    }
-    int getDia(){
-    return dia;
-    }
-    int getMes(){
-    return mes;
-    }
-    int getAnio(){
-    return anio;
-    }
-    void mostrarFecha();
     ~Fecha(){};
 };
 

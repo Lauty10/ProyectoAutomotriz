@@ -41,7 +41,7 @@ public:
 class AltaCliente {
 public:
     void registrarCliente() {
-        FILE *cliente = fopen("C:\\Users\\Lauty\\OneDrive\\Escritorio\\ProyectoGestor\\cliente.dat", "ab");
+        FILE *cliente = fopen("C:/Users/Lauty/OneDrive/Escritorio/Proyecto/cliente.dat", "wb");
         if (cliente == NULL) {
             cout<<"Error al intentar generar un nuevo cliente"<<endl;
             return;

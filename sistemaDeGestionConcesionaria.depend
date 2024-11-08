@@ -162,3 +162,94 @@
 	"Funciones.h"
 	"ClassAuto.h"
 
+1730928367 source:c:\users\lauty\onedrive\escritorio\nueva carpeta\funcionesgestoras.cpp
+	<iostream>
+	<string>
+	"windows.h"
+	<conio.h>
+	"Funciones.h"
+	"ClassDetalleVenta.h"
+
+1730750299 c:\users\lauty\onedrive\escritorio\nueva carpeta\funciones.h
+	"ClassAuto.h"
+	"ClassCabezeraVenta.h"
+	"ClassAuto.h"
+	"ClassCabezeraVenta.h"
+	"ClassClientes.h"
+	"ClassVendedores.h"
+	"ClassDetalleVenta.h"
+
+1731017386 c:\users\lauty\onedrive\escritorio\nueva carpeta\classauto.h
+	<string.h>
+	"ClassClientes.h"
+	"ClassCabezeraVenta.h"
+
+1731017386 c:\users\lauty\onedrive\escritorio\nueva carpeta\classclientes.h
+	<string.h>
+	<iostream>
+	"windows.h"
+
+1730928367 c:\users\lauty\onedrive\escritorio\nueva carpeta\classcabezeraventa.h
+	<iostream>
+	<string.h>
+	"Funciones.h"
+	"ClassVendedores.h"
+
+1731017386 c:\users\lauty\onedrive\escritorio\nueva carpeta\classvendedores.h
+	<string.h>
+
+1730928367 c:\users\lauty\onedrive\escritorio\nueva carpeta\classdetalleventa.h
+	"Funciones.h"
+	"ClassAuto.h"
+
+1731017386 source:c:\users\lauty\onedrive\escritorio\nueva carpeta\main.cpp
+	<iostream>
+	"Funciones.h"
+
+1731095985 source:c:\users\lauty\onedrive\escritorio\proyecto\funcionesgestoras.cpp
+	<iostream>
+	<string>
+	"windows.h"
+	<conio.h>
+	"Funciones.h"
+	"ClassDetalleVenta.h"
+
+1730750299 c:\users\lauty\onedrive\escritorio\proyecto\funciones.h
+	"ClassAuto.h"
+	"ClassCabezeraVenta.h"
+	"ClassAuto.h"
+	"ClassCabezeraVenta.h"
+	"ClassClientes.h"
+	"ClassVendedores.h"
+	"ClassDetalleVenta.h"
+
+1731096254 c:\users\lauty\onedrive\escritorio\proyecto\classauto.h
+	<string.h>
+	"ClassClientes.h"
+	"ClassCabezeraVenta.h"
+
+1731096254 c:\users\lauty\onedrive\escritorio\proyecto\classclientes.h
+	<string.h>
+	<iostream>
+	"windows.h"
+
+1731096254 c:\users\lauty\onedrive\escritorio\proyecto\classcabezeraventa.h
+	<iostream>
+	<string.h>
+	"Funciones.h"
+	"ClassVendedores.h"
+	"ClassFecha.h"
+
+1731017386 c:\users\lauty\onedrive\escritorio\proyecto\classvendedores.h
+	<string.h>
+
+1731096254 c:\users\lauty\onedrive\escritorio\proyecto\classdetalleventa.h
+	"Funciones.h"
+	"ClassAuto.h"
+
+1731017386 source:c:\users\lauty\onedrive\escritorio\proyecto\main.cpp
+	<iostream>
+	"Funciones.h"
+
+1731096882 c:\users\lauty\onedrive\escritorio\proyecto\classfecha.h
+
