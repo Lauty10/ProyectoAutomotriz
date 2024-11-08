@@ -1,0 +1,164 @@
+# depslib dependency file v1.0
+140733011908202 <<<<<<< HEAD
+
+1729199496 source:c:\users\lauty\onedrive\escritorio\sistemadegestionconcesionaria\main.cpp
+	<iostream>
+	"ClassAuto.h"
+
+1729199910 c:\users\lauty\onedrive\escritorio\sistemadegestionconcesionaria\classauto.h
+	<string.h>
+
+1729198688 
+
+1729115895 833c6dc3988e5a9a2796238ce6a1452ca982e
+
+1730547393 source:c:\users\lauty\onedrive\escritorio\proyectogestor\main.cpp
+	<iostream>
+	"Funciones.h"
+
+1730392058 c:\users\lauty\onedrive\escritorio\proyectogestor\classfecha.h
+
+1730584792 source:c:\users\estudiante\onedrive\escritorio\proyectogestor\main.cpp
+	<iostream>
+	"Funciones.h"
+
+1730243058 c:\users\estudiante\onedrive\escritorio\proyectogestor\classfecha.h
+
+1729449486 c:\users\lauty\onedrive\escritorio\proyectogestor\funcionalidades.cpp
+	<iostream>
+
+1729449946 source:c:\users\lauty\onedrive\escritorio\proyectogestor\funcionalidades.cpp
+	<iostream>
+
+1730928367 source:c:\users\lauty\onedrive\escritorio\proyectogestor\funcionesgestoras.cpp
+	<iostream>
+	<string>
+	"windows.h"
+	<conio.h>
+	"Funciones.h"
+	"ClassDetalleVenta.h"
+
+1730750299 c:\users\lauty\onedrive\escritorio\proyectogestor\funciones.h
+	"ClassAuto.h"
+	"ClassCabezeraVenta.h"
+	"ClassAuto.h"
+	"ClassCabezeraVenta.h"
+	"ClassClientes.h"
+	"ClassVendedores.h"
+	"ClassDetalleVenta.h"
+
+1731017386 c:\users\lauty\onedrive\escritorio\proyectogestor\classvendedores.h
+	<string.h>
+
+1730596073 c:\users\estudiante\onedrive\escritorio\proyectogestor\funciones.h
+	"ClassAuto.h"
+	"ClassCabezeraVenta.h"
+	"ClassAuto.h"
+	"ClassCabezeraVenta.h"
+	"ClassClientes.h"
+	"ClassVendedores.h"
+	"ClassDetalleVenta.h"
+
+1731017386 c:\users\lauty\onedrive\escritorio\proyectogestor\classauto.h
+	<string.h>
+	"ClassClientes.h"
+	"ClassCabezeraVenta.h"
+
+1730584792 c:\users\estudiante\onedrive\escritorio\proyectogestor\classauto.h
+	<string.h>
+	"ClassClientes.h"
+	"ClassCabezeraVenta.h"
+
+1730597163 source:c:\users\estudiante\onedrive\escritorio\proyectogestor\funcionesgestoras.cpp
+	<iostream>
+	<string>
+	"windows.h"
+	<conio.h>
+	"Funciones.h"
+	"ClassDetalleVenta.h"
+
+1730584792 c:\users\estudiante\onedrive\escritorio\proyectogestor\classvendedores.h
+	<string.h>
+
+1730597315 c:\users\estudiante\onedrive\escritorio\proyectogestor\classcabezeraventa.h
+	<iostream>
+	<string.h>
+	"Funciones.h"
+	"ClassVendedores.h"
+
+1730313175 c:\users\estudiante\onedrive\escritorio\proyectogestor\detalleventa.h
+	<iostream>
+	<string.h>
+	"ClassAuto.h"
+	"ClassCabezeraVenta.h"
+
+1730928367 c:\users\lauty\onedrive\escritorio\proyectogestor\classcabezeraventa.h
+	<iostream>
+	<string.h>
+	"Funciones.h"
+	"ClassVendedores.h"
+
+1730392058 c:\users\lauty\onedrive\escritorio\proyectogestor\detalleventa.h
+	<iostream>
+	<string.h>
+	"ClassAuto.h"
+	"ClassCabezeraVenta.h"
+
+1730584792 c:\users\estudiante\onedrive\escritorio\proyectogestor\classclientes.h
+	<string.h>
+	<iostream>
+	"windows.h"
+
+1731017386 c:\users\lauty\onedrive\escritorio\proyectogestor\classclientes.h
+	<string.h>
+	<iostream>
+	"windows.h"
+
+1730092382 source:c:\users\user\proyectogestor\funcionesgestoras.cpp
+	<iostream>
+	"ClassVendedores.h"
+	"Funciones.h"
+	"ClassCabezeraVenta.h"
+	"detalleVenta.h"
+	"ClassClientes.h"
+	<string>
+	"windows.h"
+
+1730086955 c:\users\user\proyectogestor\classvendedores.h
+	<string.h>
+
+1729732839 c:\users\user\proyectogestor\funciones.h
+	"ClassAuto.h"
+	"ClassVendedores.h"
+
+1730092382 c:\users\user\proyectogestor\classauto.h
+	<string.h>
+	"ClassClientes.h"
+
+1729732839 c:\users\user\proyectogestor\classcabezeraventa.h
+	<iostream>
+	<string.h>
+	"ClassFecha.h"
+
+1729732839 c:\users\user\proyectogestor\classfecha.h
+
+1730089742 c:\users\user\proyectogestor\detalleventa.h
+	<iostream>
+	<string.h>
+
+1730092255 c:\users\user\proyectogestor\classclientes.h
+	<string.h>
+	<iostream>
+
+1729835239 source:c:\users\user\proyectogestor\main.cpp
+	<iostream>
+	"Funciones.h"
+
+1730928367 c:\users\lauty\onedrive\escritorio\proyectogestor\classdetalleventa.h
+	"Funciones.h"
+	"ClassAuto.h"
+
+1730597315 c:\users\estudiante\onedrive\escritorio\proyectogestor\classdetalleventa.h
+	"Funciones.h"
+	"ClassAuto.h"
+
