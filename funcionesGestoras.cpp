@@ -101,7 +101,7 @@ menuVendedores();
 //REGISTRARSE EN EL SISTEMA
 void registrarse(){
 FILE *registro;
-registro=fopen("C:\\Users\\Lauty\\OneDrive\\Escritorio\\ProyectoGestor\\registros.dat","ab");
+registro=fopen("C:/Users/Lauty/OneDrive/Escritorio/Proyecto/registros.dat","wb");
 if(registro==NULL){
     cout<<"ERROR AL CREAR UN ARCHIVO DE REGISTROS"<<endl;
 }
@@ -393,7 +393,6 @@ menuVendedores();
 
 }
 
-
 //OPCION 9 (INFORMACION FACTURAS)
 void informacionFacturas(){
 int opcion;
@@ -417,7 +416,6 @@ switch(opcion){
     Cabezera obj;
     obj.listarCabezera();
     break ;}
-
 case 2:
     system("cls");
     cout<<"INFORMACION FACTURA"<<endl;
@@ -430,7 +428,6 @@ case 3:
 menuVendedores();
 break;
 }
-
 }
 }
 
@@ -450,6 +447,7 @@ return;
 }
 
 Cabezera objC;
+objC.mostrarFecha();
 objC.buscarCabezera(idV);
 fclose(cabezera1);
 FILE *detalle2;

@@ -83,7 +83,7 @@ public:
         cout<<"No se pudo encontrar el auto solicitado..."<<endl;
     }
     fclose(detalle1);
-    detalle2=fopen("C:\\Users\\Lauty\\OneDrive\\Escritorio\\ProyectoGestor\\detalle.dat","ab");
+    detalle2=fopen("C:/Users/Lauty/OneDrive/Escritorio/Proyecto/detalle.dat","wb");
     if(detalle2==NULL){
         cout<<"Error al generar el detalle..."<<endl;
     }

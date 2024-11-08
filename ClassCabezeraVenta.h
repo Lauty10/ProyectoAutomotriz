@@ -4,10 +4,11 @@
 #include <string.h>
 #include "Funciones.h"
 #include "ClassVendedores.h"
+#include "ClassFecha.h"
 
 using namespace std;
 
-class Cabezera{
+class Cabezera:public Fecha{
 private:
     int IdVendedor;
     char nombreVendedor[20];
@@ -16,7 +17,7 @@ private:
     char nombreCliente[20];
     int numVenta;
 public:
-    Cabezera(int id=0, const char* nombreV="XXX",int idC=0, int dniC=0, const char* nombreC="XXX", int numV=0){
+    Cabezera(int id=0, const char* nombreV="XXX",int idC=0, int dniC=0, const char* nombreC="XXX", int numV=0,int d=0,int m=0,int a=0):Fecha(d,m,a){
     this->IdVendedor=id;
     strcpy(nombreVendedor,nombreV);
     strcpy(nombreCliente,nombreC);
@@ -61,7 +62,6 @@ public:
     return numVenta;
     }
 
-
     void cabezeraDatos(int idV, int idC){
     FILE *dato1,*dato2,*datos3;
     dato1=fopen("registros.dat","rb");
@@ -104,7 +104,7 @@ public:
         cout<<"Cliente no encontrado"<<endl;
     }
     fclose(dato2);
-    datos3=fopen("C:\\Users\\Lauty\\OneDrive\\Escritorio\\ProyectoGestor\\cabezera.dat","ab");
+    datos3=fopen("C:/Users/Lauty/OneDrive/Escritorio/Proyecto/cabezera.dat","wb");
     if(datos3==NULL){
         cout<<"Error al generar la cabezera..."<<endl;
     }
@@ -116,6 +116,7 @@ public:
     objCabezera.setNombreVendedor(nombreV);
     objCabezera.setDniCliente(dniC);
     objCabezera.setNumVenta(numV);
+    objCabezera.agregarFecha();
     fwrite(&objCabezera,sizeof(Cabezera),1,datos3);
     fclose(datos3);
     cout<<"Cabezera creada con exito...."<<endl;
@@ -148,6 +149,7 @@ return;
 Cabezera objCA;
 
 while(fread(&objCA,sizeof(Cabezera),1,cabezera)!=0){
+objCA.mostrarFecha();
 cout<<"ID vendedor: "<<objCA.getIdVendedor()<<endl;
 cout<<"Nombre vendedor: "<<objCA.getNombreVendedor()<<endl;
 cout<<"ID cliente: "<<objCA.getIdCliente()<<endl;
