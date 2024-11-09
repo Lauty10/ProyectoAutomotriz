@@ -23,5 +23,8 @@ void listarClientesOrdenados();
 void listarClientesOrdenados();
 void informacionFacturas();
 void buscarFacturas();
+void recaudaciones();
+void recaudacioTotal();
+void recaudacionXmes();
 
 #endif // FUNCIONES_H_INCLUDED

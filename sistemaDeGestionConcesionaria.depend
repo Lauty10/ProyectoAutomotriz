@@ -253,3 +253,50 @@
 
 1731096882 c:\users\lauty\onedrive\escritorio\proyecto\classfecha.h
 
+1731105510 source:c:\users\estudiante\onedrive\escritorio\proyectoautomotriz\main.cpp
+	<iostream>
+	"Funciones.h"
+
+1731109293 c:\users\estudiante\onedrive\escritorio\proyectoautomotriz\funciones.h
+	"ClassAuto.h"
+	"ClassCabezeraVenta.h"
+	"ClassAuto.h"
+	"ClassCabezeraVenta.h"
+	"ClassClientes.h"
+	"ClassVendedores.h"
+	"ClassDetalleVenta.h"
+
+1731105510 c:\users\estudiante\onedrive\escritorio\proyectoautomotriz\classauto.h
+	<string.h>
+	"ClassClientes.h"
+	"ClassCabezeraVenta.h"
+
+1731105510 c:\users\estudiante\onedrive\escritorio\proyectoautomotriz\classclientes.h
+	<string.h>
+	<iostream>
+	"windows.h"
+
+1731110219 c:\users\estudiante\onedrive\escritorio\proyectoautomotriz\classcabezeraventa.h
+	<iostream>
+	<string.h>
+	"Funciones.h"
+	"ClassVendedores.h"
+	"ClassFecha.h"
+
+1731105510 c:\users\estudiante\onedrive\escritorio\proyectoautomotriz\classvendedores.h
+	<string.h>
+
+1731109995 c:\users\estudiante\onedrive\escritorio\proyectoautomotriz\classfecha.h
+
+1731105510 c:\users\estudiante\onedrive\escritorio\proyectoautomotriz\classdetalleventa.h
+	"Funciones.h"
+	"ClassAuto.h"
+
+1731109995 source:c:\users\estudiante\onedrive\escritorio\proyectoautomotriz\funcionesgestoras.cpp
+	<iostream>
+	<string>
+	"windows.h"
+	<conio.h>
+	"Funciones.h"
+	"ClassDetalleVenta.h"
+
