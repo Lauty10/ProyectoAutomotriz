@@ -204,6 +204,8 @@ cout<<"8-)INFORMACION SOBRE CLIENTES"<<endl;
 LH(); cout<<endl;
 cout<<"9-)INFORMACION SOBRE FACTURAS"<<endl;
 LH(); cout<<endl;
+cout<<"10-)RECAUDACIONES"<<endl;
+LH(); cout<<endl;
 cout<<"0-)CERRAR SESION"<<endl;
 LH(); cout<<endl;
 cout<<"ELIGA LA OPCION QUE DESEE:";
@@ -252,9 +254,14 @@ case 8:
     system("cls");
     informacionClientes();
     break;
-case 9:system("cls");
+case 9:
+system("cls");
 informacionFacturas();
     break;
+case 10:
+system("cls");
+recaudaciones();
+
 default:
     cout<<"La opcion elegida no es correcta..."<<endl;
 }
@@ -463,5 +470,113 @@ fclose(detalle2);
 system("pause");
 system("cls");
 return informacionFacturas();
+}
+
+
+//RECAUDACIONES
+void recaudaciones(){
+int opcion;
+while(true){
+cout<<"RECAUDACIONES"<<endl;
+LH(); cout<<endl;
+cout<<"1-)Recaudacion total"<<endl;
+LH();cout<<endl;
+cout<<"2-)Recaudacion por mes"<<endl;
+LH();cout<<endl;
+cout<<"3-)Salir..."<<endl;
+LH();cout<<endl;
+cin>>opcion;
+switch(opcion){
+case 1:
+system("cls");
+recaudacioTotal();
+    break;
+case 2:
+    system("cls");
+    recaudacionXmes();
+    break;
+case 3:
+system("cls");
+menuVendedores();
+    break;
+}
+}
+
+}
+
+
+void recaudacioTotal(){
+FILE *recaudacion;
+recaudacion=fopen("detalle.dat","rb");
+if(recaudacion==NULL){
+cout<<"NO SE PUDO ABRIR EL ARCHIVO"<<endl;
+return;
+}
+
+Detalle obj;
+float recaudacionT=0;
+
+while(fread(&obj,sizeof(Detalle),1,recaudacion)!=0){
+recaudacionT+=obj.getImporteVenta();
+}
+fclose(recaudacion);
+cout<<"LA RECAUDACION TOTAL DE TODAS LAS VENTAS ES: "<<recaudacionT<<endl;
+system("pause");
+system("cls");
+}
+
+
+//RECAUDACION POR MES
+void recaudacionXmes(){
+int mes, anio;
+cout<<"Ingrese el mes y el anio para buscar su recaudacion total: "<<endl;
+LH(); cout<<endl;
+cout<<"Mes: ";
+cin>>mes;
+cout<<"Anio: ";
+cin>>anio;
+FILE *recaudacionM, *fecha;
+recaudacionM=fopen("detalle.dat","rb");
+if(recaudacionM==NULL){
+cout<<"NO SE PUDO ABRIR EL ARCHIVO"<<endl;
+return;
+}
+
+fecha=fopen("cabezera.dat", "rb");
+if(fecha==NULL){
+cout << "NO SE PUDO ABRIR EL ARCHIVO" << endl;
+return;  }
+
+Detalle objM;
+Cabezera objF;
+
+float recaudacionMensual = 0;
+bool encontrado=false;
+int numV;
+
+while(fread(&objM,sizeof(Detalle),1,recaudacionM)!=0){
+numV=objM.getId();
+
+rewind(fecha);
+
+while(fread(&objF,sizeof(Cabezera), 1,fecha)!=0){
+if (objF.getNumVenta() == numV){
+if (objF.getMes()==mes&& objF.getAnio()==anio){
+recaudacionMensual += objM.getImporteVenta();
+encontrado = true; }
+}
+}
+
+}
+fclose(recaudacionM);
+fclose(fecha);
+if (encontrado) {
+cout<<"La recaudacion total para el: "<<mes<<"/"<<anio<<"es: "<<recaudacionMensual<< endl;
+}
+else {
+cout<<"No se encontraron ventas para el mes "<<mes<<"/"<<anio<<endl; }
+system("pause");
+system("cls");
+
 }
 

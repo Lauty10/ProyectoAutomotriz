@@ -20,6 +20,25 @@ public:
     cout<<"Ingrese el anio de la fecha:";
     cin>>anio;
     }
+    void setDia(int d){
+    this->dia=d;
+    }
+    void setMes(int m){
+    this->mes=m;
+    }
+    void setAnio(int a){
+    this->anio=a;
+    }
+
+    int getMes(){
+     return mes;
+    }
+    int getAnio(){
+    return anio;
+    }
+    int getDia(){
+    return dia;
+    }
     void mostrarFecha(){
     cout<<this->dia<<"/"<<this->mes<<"/"<<anio<<endl;
     }

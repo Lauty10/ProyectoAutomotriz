@@ -16,6 +16,9 @@ private:
     int dniCliente;
     char nombreCliente[20];
     int numVenta;
+    int dia;
+    int mes;
+    int anio;
 public:
     Cabezera(int id=0, const char* nombreV="XXX",int idC=0, int dniC=0, const char* nombreC="XXX", int numV=0,int d=0,int m=0,int a=0):Fecha(d,m,a){
     this->IdVendedor=id;
@@ -25,6 +28,7 @@ public:
     this->dniCliente=dniC;
     this->numVenta=numV;
     }
+
     void setIdVendedor(int id){
     this->IdVendedor=id;
     }
